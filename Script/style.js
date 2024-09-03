@@ -2,6 +2,9 @@ const myCanvas = document.getElementById("myCanvas");
         
 var ctx = myCanvas.getContext("2d");
 
+// This part defines how you work with 
+// the context (ctx) within the lifecycle methods
+
         // House 
         ctx.beginPath();
         ctx.moveTo(100,100);
